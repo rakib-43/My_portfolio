@@ -12,25 +12,37 @@
     h3 {
         font-size: 20px;
     }
+    /* 2 Navbar */
+    .header-scrolled{
+        height: auto;
+    }
+    .header_wrapper .menu-navbar-nav{
+        text-align: center;
+        background-color: var(--bg-dark-blue);
+        padding-bottom: 15px;
+    }
+    .header_wrapper .nav-item .nav-link{
+        margin-top: 15px;
+    }
+
+    /* 2 Banner Wrapper*/
+    .banner_wrapper{
+        padding: -200px 0
+    }
+
+    /* About section*/
+    .about_wrapper ul.nav-pills{
+        width: 57%;
+        margin: auto;
+    }
+    /* Portfolio section*/
+    .portfolio_wrapper .card{
+        min-height: 450px;
+    }
+
 }
 
-/* 2 Navbar */
-.header-scrolled{
-    height: auto;
-}
-.header_wrapper .menu-navbar-nav{
-    text-align: center;
-    background-color: var(--bg-dark-blue);
-    padding-bottom: 15px;
-}
-.header_wrapper .nav-item .nav-link{
-    margin-top: 15px;
-}
 
-/* 2 Banner Wrapper*/
-.banner_wrapper{
-    padding: -200px 0
-}
 
 
 @media (max-width:767px){
@@ -45,6 +57,19 @@
     p{
         font-size: 13px;
         line-height: 24px;
+    }
+    /* About section*/
+    .about_wrapper ul.nav-pills{
+        width: 100%;
+        margin: auto;
+        border:0;
+    }
+    .about_wrapper ul li .nav-link{
+        font-size: 13px;
+    }
+    /* Portfolio section*/
+    .portfolio_wrapper .card{
+        min-height: 550px;
     }
 }
 
