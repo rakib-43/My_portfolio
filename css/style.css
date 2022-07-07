@@ -187,7 +187,7 @@ button{
     width: 100%;
     height: auto;
     min-height: 1050px;
-    background-image: url('../images/bg-image.jpg');
+    background-image: url('../images/640208.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -304,5 +304,41 @@ button{
 }
 .contact_wrapper .call_details a{
     color: var(--text-gray);
+}
+
+/* Footer section */
+.footer_wrapper{
+    background-color: var(--bg-dark-blue);
+    padding: 20px 0;
+}
+.footer_wrapper .social-icon li{
+    margin: 6px;
+}
+.footer_wrapper .social-icon a{
+    width: 35px;
+    height: 35px;
+    line-height: 30px;
+    font-size: 14px;
+    display: inline-block;
+    border: 2px solid var(--text-gray);
+    color: var(--text-gray);
+    text-align: center;
+    border-radius: 100%;
+    -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+.footer_wrapper .social-icon a:hover{
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    color: var(--text-white);
+    box-shadow: 0 10px 15px 0 rgb(0 0 0/10%);
+    transform: translateY(-3px);
+}
+.footer_wrapper .copyright-text p{
+    font-size: 11px;
+    line-height: 20px;
+}
+.footer_wrapper .copyright-text a{
+    color: var(--primary-color);
 }
 
